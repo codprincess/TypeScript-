@@ -25,4 +25,15 @@ let tom3:Person2 = {
     name:'jing',
     age:19
 }
+//这时仍然不允许添加未定义的属性
+// interface Person3 {
+//     name: string;
+//     age?: number;
+// }
+// let tom3: Person3 = {
+//     name: 'Tom',
+//     age: 25,
+//     gender: 'male'
+// };
 
+//任意属性
